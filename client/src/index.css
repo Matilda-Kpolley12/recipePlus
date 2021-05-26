@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Corben', 'cursive';
+    font-weight: 400;
+    src: url(./fonts/Corben/Corben-Regular.ttf) format("ttf");
+  }
+  @font-face {
+    font-family:'corben';
+    font-weight: 700;
+    src: url(./fonts/Corben/Corben-Bold.ttf) format("ttf");
+  }
+}
